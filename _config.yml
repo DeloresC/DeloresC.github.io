@@ -30,7 +30,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 header_pages:
   - about.md
-  - connect.md
 
 # Build settings
 theme: minima
