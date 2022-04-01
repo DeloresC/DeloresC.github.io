@@ -7,11 +7,7 @@ layout: default
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
-
-  <div style="background-color: #a9a9a9;">
-  	{% include toc.html html=content %}
-  </div>
-
+  {% include toc.html html=content %}
 
   <div class="post-content">
     {{ content }}
